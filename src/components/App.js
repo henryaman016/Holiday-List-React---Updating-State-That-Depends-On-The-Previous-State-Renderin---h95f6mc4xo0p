@@ -37,7 +37,7 @@ class App extends Component {
     ];
 
     this.filterCityList = this.cityList.filter((item) => {
-      return item.country === "India", "Netherlands", "USA", "Japan";
+      return item.country === item.country;
     });
   }
 
